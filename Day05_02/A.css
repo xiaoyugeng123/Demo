@@ -1,0 +1,73 @@
+#a00{
+	width:100% ;
+}
+#a00>img{
+	width:100% ;
+	position: fixed;
+}
+#div{
+	width: 100%;
+}
+#div1,#div3,#div5>#div51,#div6,#div6>#div61,#div6>#div62{
+	width: 100%;
+}
+#div1>img{
+	margin-top: 79px;
+}
+#div1>img,#div3>img,#div6>#div61>img,#div6>#div62>img{
+	width: 100%;
+}
+#div2,#div4{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+#div2>img{
+	width: 20%;
+	height: 100%;
+}
+#div4>img{
+	width: 33.3%;
+    height: 100%;
+}
+#div5{
+	width: 100%;
+	position: relative;
+}
+#div5>#div51{
+	/*position: absolute;*/
+}
+#div5>#div51>img{
+	width: 100%;	
+}
+#div5>#div521{
+	width: 25%;
+	top: 29%;
+	left: 4%;
+	position: absolute;
+	float: right;
+	
+}
+#div5>#div522{
+	width: 25%;
+	top: 29%;
+	left: 35%;
+	position: absolute;
+	float: right;
+	
+}
+#div5>#div523{
+	width: 25%;
+	top: 29%;
+	left: 67%;
+	position: absolute;
+	float: right;	
+}
+
+#div5>#div521>img,#div5>#div522>img,#div5>#div523>img,#div5>#div524>img{
+	width: 100%;	
+}
+
+*{
+	margin: 0px;
+}
